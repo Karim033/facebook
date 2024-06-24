@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
-export const sequlizeInstace = new Sequelize("facebook_c42", "root", "", {
-  host: "localhost",
+export const sequlizeInstace = new Sequelize("beydwqxtgausbsylcthp", "utuww5azplgrwexq", "XaCGjEDFTlEsuu86pH2t", {
+  host: "beydwqxtgausbsylcthp-mysql.services.clever-cloud.com",
   dialect: "mysql",
 });
 
