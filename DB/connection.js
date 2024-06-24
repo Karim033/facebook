@@ -1,9 +1,14 @@
 import { Sequelize } from "sequelize";
 
-export const sequlizeInstace = new Sequelize("beydwqxtgausbsylcthp", "utuww5azplgrwexq", "XaCGjEDFTlEsuu86pH2t", {
-  host: "beydwqxtgausbsylcthp-mysql.services.clever-cloud.com",
-  dialect: "mysql",
-});
+export const sequlizeInstace = new Sequelize(
+  "beydwqxtgausbsylcthp",
+  "utuww5azplgrwexq",
+  "XaCGjEDFTlEsuu86pH2t",
+  {
+    host: "beydwqxtgausbsylcthp-mysql.services.clever-cloud.com",
+    dialect: "mysql",
+  }
+);
 
 const db_connection = async () => {
   try {
